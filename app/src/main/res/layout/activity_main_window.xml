@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:id="@+id/parentPanel"
+    tools:context="com.ales.diabetolog.ActivityMain">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <include layout="@layout/content_activity_main_window" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        app:backgroundTint="@color/colorAccent"
+        app:srcCompat="@android:drawable/ic_menu_add" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_gravity="bottom|end"
+        android:layout_marginBottom="200dp"
+        android:layout_marginEnd="16dp"
+        android:visibility="invisible"
+        android:id="@+id/rl_vnos">
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab_vnos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="5dp"
+            android:visibility="invisible"
+            app:backgroundTint="@android:color/holo_blue_bright"
+            app:fabSize="mini"
+            app:srcCompat="@drawable/vnos128" />
+
+        <TextView
+            android:id="@+id/tv_input"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="false"
+            android:layout_marginEnd="5dp"
+            android:layout_marginTop="8dp"
+            android:visibility="invisible"
+            android:layout_toStartOf="@id/fab_vnos"
+            android:text="@string/vnos"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_gravity="bottom|end"
+        android:layout_marginBottom="140dp"
+        android:layout_marginEnd="16dp"
+        android:visibility="invisible"
+        android:id="@+id/rl_obrok">
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab_obrok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="5dp"
+            android:visibility="invisible"
+            app:backgroundTint="@android:color/holo_blue_bright"
+            app:fabSize="mini"
+            app:srcCompat="@drawable/obrok128" />
+
+        <TextView
+            android:id="@+id/tv_obrok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="false"
+            android:layout_marginEnd="5dp"
+            android:layout_marginTop="8dp"
+            android:visibility="invisible"
+            android:layout_toStartOf="@id/fab_obrok"
+            android:text="@string/obrok"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="53dp"
+        android:layout_gravity="bottom|end"
+        android:layout_marginBottom="80dp"
+        android:layout_marginEnd="16dp"
+        android:visibility="invisible"
+        android:id="@+id/rl_aktivnost">
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab_aktivnost"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="5dp"
+            android:visibility="invisible"
+            app:backgroundTint="@android:color/holo_blue_bright"
+            app:fabSize="mini"
+            app:srcCompat="@drawable/aktivnost128" />
+
+        <TextView
+            android:id="@+id/tv_aktivnost"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="false"
+            android:layout_marginEnd="5dp"
+            android:layout_marginTop="8dp"
+            android:visibility="invisible"
+            android:layout_toStartOf="@id/fab_aktivnost"
+            android:text="@string/aktivnost"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+
+</android.support.design.widget.CoordinatorLayout>

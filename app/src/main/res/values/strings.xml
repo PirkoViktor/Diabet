@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">Diabet</string>
+    <string name="action_settings">Налаштування</string>
+    <string name="action_statistika">Статистика</string>
+    <string name="action_google_drive">Import/Export</string>
+    <string name="action_delete">Видалити виділені записи</string>
+
+    <string name="google_drive_icon">Google Drive</string>
+
+    <string name="da">Так</string>
+    <string name="ne">Ні</string>
+    <string name="ok">Гаразд</string>
+    <string name="cancel">Скасувати</string>
+
+    <string name="nastavitve_od">Від:</string>
+    <string name="nastavitve_do">До:</string>
+    <string name="nastavitve_vrednost">Значення:</string>
+    <string name="title_activity_nastavitve">Налаштування</string>
+    <string name="title_activity_statistika">Статистика</string>
+
+    <string name="oh_razmerja">OH відносини:</string>
+    <string name="obcutljivost">Інсулінова чутливість:</string>
+    <string name="cilnja_gk">Ціль GK:</string>
+    <string name="spodnja_meja">Нижня межа:</string>
+    <string name="zgornja_meja">Верхня межа:</string>
+    <string name="cas_delovanja_inzulina">Час дії інсуліну:</string>
+    <string name="bazalni_odmerki">Базальні дози:</string>
+
+    <string name="aktivnost">Активність</string>
+    <string name="obrok">Їжа</string>
+    <string name="vnos">Інсулін</string>
+
+    <string name="zahtevano_polje"> Обовязкові поля позначені *</string>
+    <string name="datum">Дата:</string>
+    <string name="sladkor">Цукор:</string>
+    <string name="sladkor_req">Цукор*:</string>
+    <string name="sladkorji">Цукри:</string>
+    <string name="kolicina_oh">Кількість OH:</string>
+    <string name="kolicina_oh_req">Кількість OH*:</string>
+    <string name="enot_inzulina">Одиниць інсуліну:</string>
+    <string name="tip">Тип:</string>
+    <string name="opis">Опис:</string>
+    <string name="konec_aktivnost">Кінець активності:</string>
+    <string name="izračunaj_potreben_inzulin">Обчислити необхідний інсулін</string>
+
+    <string name="dodaj">Додати</string>
+    <string name="shrani">Зберегти</string>
+    <string name="prekini">Зупинити</string>
+    <string name="koncaj_aktivnost">Завершити активність</string>
+
+    <string name="prenesi_v_google_drive">Завантажити на Google Диск</string>
+    <string name="prenesi_iz_google_drive">Завантажити з Google Диска</string>
+    <string name="prenos">Я передаю&#8230;</string>
+
+    <string name="load_error">Імпортувати дані з диска (якщо такі є)?</string>
+
+    <string name="layout_vnos">СКЛАД </string>
+    <string name="layout_obrok">СКЛАД </string>
+    <string name="layout_aktivnost">РОЗМІР</string>
+
+    <string name="icon_text">Іконка</string>
+
+    <string name="statistika_vse">Всі записи:</string>
+    <string name="statistika_vnosi">Записи:</string>
+    <string name="statistika_obroki">Їжа:</string>
+    <string name="statistika_aktivnosti">Заходи:</string>
+    <string name="min_vred">Min:</string>
+    <string name="max_vred">Max:</string>
+    <string name="avg_vred">Avg:</string>
+</resources>

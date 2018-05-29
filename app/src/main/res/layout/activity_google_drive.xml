@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/img_google_drive"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/google_drive_icon"
+        android:src="@mipmap/google_drive_icon" />
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:visibility="invisible"
+        android:id="@+id/progress_bar"/>
+    <Button
+        android:id="@+id/btn_export"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/img_google_drive"
+        android:layout_centerHorizontal="true"
+        android:drawableStart="@drawable/file_upload48"
+        android:text="@string/prenesi_v_google_drive" />
+
+    <Button
+        android:id="@+id/btn_import"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_export"
+        android:layout_centerHorizontal="true"
+        android:drawableStart="@drawable/file_download48"
+        android:text="@string/prenesi_iz_google_drive" />
+
+    <TextView
+        android:id="@+id/tv_prenasam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_import"
+        android:layout_centerHorizontal="true"
+        android:text="@string/prenos"
+        android:visibility="invisible" />
+</RelativeLayout>
